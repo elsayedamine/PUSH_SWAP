@@ -56,7 +56,7 @@ void	ft_pushtoa(t_stack **stack_b, t_stack **stack_a, int index, int i)
 	pa_pb(stack_b, stack_a, 'a');
 }
 
-void	ft_swaped(t_stack **stack_a, t_stack **stack_b, t_arr arr)
+void	ft_choose_chunk_len(t_stack **stack_a, t_stack **stack_b, t_arr arr)
 {
 	t_var	var;
 
@@ -69,7 +69,7 @@ void	ft_swaped(t_stack **stack_a, t_stack **stack_b, t_arr arr)
 	ft_pushtob(stack_a, stack_b, arr.arr, &var);
 }
 
-void	ft_sorted(t_stack **stack_a, t_stack **stack_b, int i)
+void	ft_sort(t_stack **stack_a, t_stack **stack_b, int i)
 {
 	t_stack	*temp;
 	t_stack	*max;
@@ -99,6 +99,6 @@ void	ft_sorted(t_stack **stack_a, t_stack **stack_b, int i)
 
 void	push_swap_max(t_stack **a, t_stack **b, t_arr arr)
 {
-	ft_swaped(a, b, arr);
-	ft_sorted(a, b, arr.size);
+	ft_choose_chunk_len(a, b, arr);
+	ft_sort(a, b, arr.size);
 }
