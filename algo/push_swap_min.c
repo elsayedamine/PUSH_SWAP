@@ -6,11 +6,11 @@
 /*   By: aelsayed <aelsayed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/26 21:45:16 by aelsayed          #+#    #+#             */
-/*   Updated: 2025/01/29 21:38:28 by aelsayed         ###   ########.fr       */
+/*   Updated: 2025/10/24 20:02:40 by aelsayed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 void	push_swap3(t_stack **head)
 {

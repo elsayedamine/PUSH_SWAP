@@ -6,11 +6,11 @@
 /*   By: aelsayed <aelsayed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/26 21:20:41 by aelsayed          #+#    #+#             */
-/*   Updated: 2025/01/29 10:21:58 by aelsayed         ###   ########.fr       */
+/*   Updated: 2025/10/24 20:02:31 by aelsayed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 int	ft_partition(int *arr, int low, int high)
 {

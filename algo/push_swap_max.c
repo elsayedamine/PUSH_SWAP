@@ -6,11 +6,11 @@
 /*   By: aelsayed <aelsayed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 17:59:28 by aelsayed          #+#    #+#             */
-/*   Updated: 2025/01/29 21:46:43 by aelsayed         ###   ########.fr       */
+/*   Updated: 2025/10/24 20:02:35 by aelsayed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 void	ft_pushtob(t_stack **s_a, t_stack **s_b, int *arr, t_var *var)
 {

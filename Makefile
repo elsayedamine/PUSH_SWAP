@@ -7,20 +7,20 @@ lib = $(LIB_DIR)/libft.a
 
 sources = \
 		main.c \
-		libft_lst1.c \
-		ft_lstatoi.c \
-		operations.c \
-		arr_alloc.c \
-		push_swap_min.c \
-		push_swap_max.c \
-		ft_parsing.c \
+		parsing/libft_lst1.c \
+		parsing/ft_parsing.c \
+		parsing/ft_lstatoi.c \
+		algo/operations.c \
+		algo/arr_alloc.c \
+		algo/push_swap_min.c \
+		algo/push_swap_max.c \
 
 bonus_src = \
-		checker_bonus.c \
-		ft_lstatoi_bonus.c \
-		ft_parsing_bonus.c \
-		operations_bonus.c \
-		libft_lst1_bonus.c
+		checker/checker.c \
+		checker/ft_lstatoi.c \
+		checker/ft_parsing.c \
+		checker/operations.c \
+		checker/libft_lst1.c
 
 object = $(sources:.c=.o)
 bonus_obj = $(bonus_src:.c=.o)

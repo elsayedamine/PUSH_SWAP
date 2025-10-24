@@ -95,7 +95,7 @@ make bonus
 ├── push_swap_max.c
 └─────bouns part
 ├── checker_bonus.c
-├── push_swap_bonus.h
+├── push_swap_checker.h
 ├── ft_lstatoi_bonus.c
 ├── ft_parsing_bonus.c
 ├── operations_bonus.c
