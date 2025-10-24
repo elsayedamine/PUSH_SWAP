@@ -16,11 +16,11 @@ sources = \
 		algo/push_swap_max.c \
 
 bonus_src = \
-		checker/checker.c \
-		checker/ft_lstatoi.c \
-		checker/ft_parsing.c \
-		checker/operations.c \
-		checker/libft_lst1.c
+		Checker/checker.c \
+		Checker/ft_lstatoi.c \
+		Checker/ft_parsing.c \
+		Checker/operations.c \
+		Checker/libft_lst1.c
 
 object = $(sources:.c=.o)
 bonus_obj = $(bonus_src:.c=.o)
